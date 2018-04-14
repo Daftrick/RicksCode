@@ -1,0 +1,8 @@
+Change Component Comment : Designator=CONN? Old Comment=Connector New Comment=Header MSP430
+Change Component Designator: OldDesignator=CONN? NewDesignator=Control
+Change Net Name : Old Net Name=NetCONN?_1 New Net Name=NetControl_1
+Change Net Name : Old Net Name=NetCONN?_2 New Net Name=NetControl_2
+Change Net Name : Old Net Name=NetCONN?_3 New Net Name=NetControl_3
+Change Net Name : Old Net Name=NetCONN?_4 New Net Name=NetControl_4
+Change Net Name : Old Net Name=NetCONN?_5 New Net Name=NetControl_5
+Added Room: Name=Triacs_Shematic

@@ -1,0 +1,15 @@
+Added Pin To Net: NetName=NetHeader Der_2 Pin=Header Der-2
+Added Pin To Net: NetName=NetHeader Der_2 Pin=R5-1
+Added Net: Name=NetHeader Der_2
+Added Pin To Net: NetName=NetHeader Der_7 Pin=Header Der-7
+Added Pin To Net: NetName=NetHeader Der_7 Pin=R4-1
+Added Net: Name=NetHeader Der_7
+Added Pin To Net: NetName=NetHeader Der_8 Pin=Header Der-8
+Added Pin To Net: NetName=NetHeader Der_8 Pin=R3-1
+Added Net: Name=NetHeader Der_8
+Added Pin To Net: NetName=NetHeader Izq_9 Pin=Header Izq-9
+Added Pin To Net: NetName=NetHeader Izq_9 Pin=R2-1
+Added Net: Name=NetHeader Izq_9
+Added Pin To Net: NetName=NetHeader Izq_10 Pin=Header Izq-10
+Added Pin To Net: NetName=NetHeader Izq_10 Pin=R1-1
+Added Net: Name=NetHeader Izq_10

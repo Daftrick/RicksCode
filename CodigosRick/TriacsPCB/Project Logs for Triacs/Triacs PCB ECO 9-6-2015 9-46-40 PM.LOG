@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=NetTriac1_1 Pin=Power-1
+Added Pin To Net: NetName=NetFoco1_2 Pin=Power-2
+Change Net Name : Old Net Name=NetTriac1_1 New Net Name=Netpower_1

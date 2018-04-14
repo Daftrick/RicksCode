@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetFoco1_2 Pin=Power-2
+Added Component: Designator=power(2P_PCB_TERM_BLOCK_HDR)
+Added Pin To Net: NetName=NetTriac2_1 Pin=power-1
+Added Pin To Net: NetName=NetFoco1_2 Pin=power-2
+Added Pin To Net: NetName=NetTriac2_1 Pin=Triac1-1
+Change Net Name : Old Net Name=NetTriac2_1 New Net Name=Netpower_1

@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=NetHeader Der_2 Pin=Header Der-2
+Added Pin To Net: NetName=NetHeader Der_2 Pin=R3-1
+Added Net: Name=NetHeader Der_2
+Added Room: Name=Triacs_Shematic

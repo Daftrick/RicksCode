@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=Net120v/N_1 Pin=120v/N-1
+Removed Pin From Net: NetName=Net120v/N_2 Pin=120v/N-2
+Removed Pin From Net: NetName=Net120v/N_1 Pin=Triac1-1
+Removed Member From Class: ClassName=Triacs_Shematic Member=120v/N
+Added Component: Designator=CONN?(1x2x2.54 Pin Header TH V)
+Added Pin To Net: NetName=Net120v/N_2 Pin=CONN?-2
+Change Net Name : Old Net Name=Net120v/N_1 New Net Name=NetTriac2_1
+Change Net Name : Old Net Name=Net120v/N_2 New Net Name=NetCONN?_2
+Added Member To Class: ClassName=Triacs_Shematic Member=Component CONN? Connector
+Added Member To Class: ClassName=Triacs_Shematic Member=Component Foco3 2P_TERM_BLOCK_HEADER
+Added Room: Name=Triacs_Shematic

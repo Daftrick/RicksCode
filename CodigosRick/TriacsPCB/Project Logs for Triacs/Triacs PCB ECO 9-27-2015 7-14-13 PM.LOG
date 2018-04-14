@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=NetHeader Der_9 Pin=HeaderVirtual-3
+Removed Member From Class: ClassName=Triacs_Shematic Member=HeaderVirtual
+Added Room: Name=Triacs_Shematic

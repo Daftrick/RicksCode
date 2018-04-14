@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=Netpower_1 Pin=power-1
+Removed Pin From Net: NetName=NetFoco1_2 Pin=power-2
+Added Pin To Net: NetName=Netpower_1 Pin=Power-1

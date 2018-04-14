@@ -1,0 +1,124 @@
+Added Component: Designator=120V/GND(1x2x2.54 Pin Header TH V)
+Added Component: Designator=Control(HDR1X5)
+Added Component: Designator=Foco1(LED White 3mm TH V)
+Added Component: Designator=Foco2(LED White 3mm TH V)
+Added Component: Designator=Foco3(LED White 3mm TH V)
+Added Component: Designator=Foco4(LED White 3mm TH V)
+Added Component: Designator=Foco5(LED White 3mm TH V)
+Added Component: Designator=Header Der(HDR1X10)
+Added Component: Designator=Header Izq(HDR1X10)
+Added Component: Designator=Moc1(PDIP6-300-W)
+Added Component: Designator=Moc2(PDIP6-300-W)
+Added Component: Designator=Moc3(PDIP6-300-W)
+Added Component: Designator=Moc4(PDIP6-300-W)
+Added Component: Designator=Moc5(PDIP6-300-W)
+Added Component: Designator=R1(R Axial 0.4)
+Added Component: Designator=R2(R Axial 0.4)
+Added Component: Designator=R3(R Axial 0.4)
+Added Component: Designator=R4(R Axial 0.4)
+Added Component: Designator=R5(R Axial 0.4)
+Added Component: Designator=R6(R Axial 0.4)
+Added Component: Designator=R7(R Axial 0.4)
+Added Component: Designator=R8(R Axial 0.4)
+Added Component: Designator=R9(R Axial 0.4)
+Added Component: Designator=R10(R Axial 0.4)
+Added Component: Designator=Triac1(369-03)
+Added Component: Designator=Triac2(369-03)
+Added Component: Designator=Triac3(369-03)
+Added Component: Designator=Triac4(369-03)
+Added Component: Designator=Triac5(369-03)
+Added Pin To Net: NetName=GND Pin=Moc1-2
+Added Pin To Net: NetName=GND Pin=Moc3-2
+Added Pin To Net: NetName=GND Pin=Moc4-2
+Added Pin To Net: NetName=GND Pin=Moc5-2
+Added Net: Name=GND
+Added Pin To Net: NetName=Net120V/GND_1 Pin=120V/GND-1
+Added Pin To Net: NetName=Net120V/GND_1 Pin=Triac1-1
+Added Pin To Net: NetName=Net120V/GND_1 Pin=Triac2-1
+Added Pin To Net: NetName=Net120V/GND_1 Pin=Triac3-1
+Added Pin To Net: NetName=Net120V/GND_1 Pin=Triac4-1
+Added Pin To Net: NetName=Net120V/GND_1 Pin=Triac5-1
+Added Net: Name=Net120V/GND_1
+Added Pin To Net: NetName=Net120V/GND_2 Pin=120V/GND-2
+Added Pin To Net: NetName=Net120V/GND_2 Pin=Foco1-1
+Added Pin To Net: NetName=Net120V/GND_2 Pin=Foco3-1
+Added Net: Name=Net120V/GND_2
+Added Pin To Net: NetName=NetControl_1 Pin=Control-1
+Added Pin To Net: NetName=NetControl_1 Pin=R1-1
+Added Net: Name=NetControl_1
+Added Pin To Net: NetName=NetControl_2 Pin=Control-2
+Added Pin To Net: NetName=NetControl_2 Pin=R2-1
+Added Net: Name=NetControl_2
+Added Pin To Net: NetName=NetControl_3 Pin=Control-3
+Added Pin To Net: NetName=NetControl_3 Pin=R3-1
+Added Net: Name=NetControl_3
+Added Pin To Net: NetName=NetControl_4 Pin=Control-4
+Added Pin To Net: NetName=NetControl_4 Pin=R4-1
+Added Net: Name=NetControl_4
+Added Pin To Net: NetName=NetControl_5 Pin=Control-5
+Added Pin To Net: NetName=NetControl_5 Pin=R5-1
+Added Net: Name=NetControl_5
+Added Pin To Net: NetName=NetFoco1_2 Pin=Foco1-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=R6-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=Triac1-2
+Added Net: Name=NetFoco1_2
+Added Pin To Net: NetName=NetFoco2_2 Pin=Foco2-2
+Added Pin To Net: NetName=NetFoco2_2 Pin=R7-2
+Added Pin To Net: NetName=NetFoco2_2 Pin=Triac2-2
+Added Net: Name=NetFoco2_2
+Added Pin To Net: NetName=NetFoco3_2 Pin=Foco3-2
+Added Pin To Net: NetName=NetFoco3_2 Pin=R8-2
+Added Pin To Net: NetName=NetFoco3_2 Pin=Triac3-2
+Added Net: Name=NetFoco3_2
+Added Pin To Net: NetName=NetFoco4_2 Pin=Foco4-2
+Added Pin To Net: NetName=NetFoco4_2 Pin=R9-2
+Added Pin To Net: NetName=NetFoco4_2 Pin=Triac4-2
+Added Net: Name=NetFoco4_2
+Added Pin To Net: NetName=NetFoco5_2 Pin=Foco5-2
+Added Pin To Net: NetName=NetFoco5_2 Pin=R10-2
+Added Pin To Net: NetName=NetFoco5_2 Pin=Triac5-2
+Added Net: Name=NetFoco5_2
+Added Pin To Net: NetName=NetMoc1_1 Pin=Moc1-1
+Added Pin To Net: NetName=NetMoc1_1 Pin=R1-2
+Added Net: Name=NetMoc1_1
+Added Pin To Net: NetName=NetMoc1_4 Pin=Moc1-4
+Added Pin To Net: NetName=NetMoc1_4 Pin=Triac1-3
+Added Net: Name=NetMoc1_4
+Added Pin To Net: NetName=NetMoc1_6 Pin=Moc1-6
+Added Pin To Net: NetName=NetMoc1_6 Pin=R6-1
+Added Net: Name=NetMoc1_6
+Added Pin To Net: NetName=NetMoc2_1 Pin=Moc2-1
+Added Pin To Net: NetName=NetMoc2_1 Pin=R2-2
+Added Net: Name=NetMoc2_1
+Added Pin To Net: NetName=NetMoc2_4 Pin=Moc2-4
+Added Pin To Net: NetName=NetMoc2_4 Pin=Triac2-3
+Added Net: Name=NetMoc2_4
+Added Pin To Net: NetName=NetMoc2_6 Pin=Moc2-6
+Added Pin To Net: NetName=NetMoc2_6 Pin=R7-1
+Added Net: Name=NetMoc2_6
+Added Pin To Net: NetName=NetMoc3_1 Pin=Moc3-1
+Added Pin To Net: NetName=NetMoc3_1 Pin=R3-2
+Added Net: Name=NetMoc3_1
+Added Pin To Net: NetName=NetMoc3_4 Pin=Moc3-4
+Added Pin To Net: NetName=NetMoc3_4 Pin=Triac3-3
+Added Net: Name=NetMoc3_4
+Added Pin To Net: NetName=NetMoc3_6 Pin=Moc3-6
+Added Pin To Net: NetName=NetMoc3_6 Pin=R8-1
+Added Net: Name=NetMoc3_6
+Added Pin To Net: NetName=NetMoc4_1 Pin=Moc4-1
+Added Pin To Net: NetName=NetMoc4_1 Pin=R4-2
+Added Net: Name=NetMoc4_1
+Added Pin To Net: NetName=NetMoc4_4 Pin=Moc4-4
+Added Pin To Net: NetName=NetMoc4_4 Pin=Triac4-3
+Added Net: Name=NetMoc4_4
+Added Pin To Net: NetName=NetMoc5_1 Pin=Moc5-1
+Added Pin To Net: NetName=NetMoc5_1 Pin=R5-2
+Added Net: Name=NetMoc5_1
+Added Pin To Net: NetName=NetMoc5_4 Pin=Moc5-4
+Added Pin To Net: NetName=NetMoc5_4 Pin=Triac5-3
+Added Net: Name=NetMoc5_4
+Added Pin To Net: NetName=NetMoc5_6 Pin=Moc5-6
+Added Pin To Net: NetName=NetMoc5_6 Pin=R10-1
+Added Net: Name=NetMoc5_6
+Added Class: Name=Triacs_Shematic
+Added Room: Name=Triacs_Shematic

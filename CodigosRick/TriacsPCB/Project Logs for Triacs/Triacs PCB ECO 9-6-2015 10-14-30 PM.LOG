@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetHeader Izq_10 Pin=R1-1
+Removed Pin From Net: NetName=NetHeader Der_8 Pin=R3-1
+Removed Pin From Net: NetName=NetHeader Der_2 Pin=R5-1
+Added Pin To Net: NetName=NetHeader Izq_10 Pin=R2-1
+Added Pin To Net: NetName=NetHeader Der_2 Pin=R3-1
+Added Pin To Net: NetName=NetHeader Der_8 Pin=R5-1

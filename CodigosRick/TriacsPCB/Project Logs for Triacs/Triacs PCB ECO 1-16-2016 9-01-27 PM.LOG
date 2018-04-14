@@ -1,0 +1,29 @@
+Added Component: Designator=Foco0(2P_PCB_TERM_BLOCK_HDR)
+Added Component: Designator=Moc0(PDIP6-300-W)
+Added Component: Designator=R0(R Axial 0.4)
+Added Component: Designator=R6(R Axial 0.4)
+Added Component: Designator=Triac0(369-03)
+Added Pin To Net: NetName=SAL_F Pin=Foco0-2
+Added Pin To Net: NetName=GND Pin=Moc0-2
+Added Pin To Net: NetName=ENT_T Pin=Triac0-1
+Added Pin To Net: NetName=NetFoco0_1 Pin=Foco0-1
+Added Pin To Net: NetName=NetFoco0_1 Pin=R6-2
+Added Pin To Net: NetName=NetFoco0_1 Pin=Triac0-2
+Added Net: Name=NetFoco0_1
+Added Pin To Net: NetName=NetHeader Izq_8 Pin=Header Izq-8
+Added Pin To Net: NetName=NetHeader Izq_8 Pin=R0-1
+Added Net: Name=NetHeader Izq_8
+Added Pin To Net: NetName=NetMoc0_1 Pin=Moc0-1
+Added Pin To Net: NetName=NetMoc0_1 Pin=R0-2
+Added Net: Name=NetMoc0_1
+Added Pin To Net: NetName=NetMoc0_4 Pin=Moc0-4
+Added Pin To Net: NetName=NetMoc0_4 Pin=Triac0-3
+Added Net: Name=NetMoc0_4
+Added Pin To Net: NetName=NetMoc0_6 Pin=Moc0-6
+Added Pin To Net: NetName=NetMoc0_6 Pin=R6-1
+Added Net: Name=NetMoc0_6
+Added Member To Class: ClassName=Triacs_Shematic Member=Component Foco0 2P_TERM_BLOCK_HEADER
+Added Member To Class: ClassName=Triacs_Shematic Member=Component Moc0 MOC3011
+Added Member To Class: ClassName=Triacs_Shematic Member=Component R0 330R
+Added Member To Class: ClassName=Triacs_Shematic Member=Component Triac0 Triac
+Added Room: Name=Triacs_Shematic

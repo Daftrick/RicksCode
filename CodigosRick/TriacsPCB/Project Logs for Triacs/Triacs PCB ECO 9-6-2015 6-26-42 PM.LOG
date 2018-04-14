@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=Foco3 NewDesignator=120v/N
+Change Net Name : Old Net Name=NetFoco1_2 New Net Name=Net120v/N_2
+Change Net Name : Old Net Name=NetFoco3_1 New Net Name=Net120v/N_1
+Added Member To Class: ClassName=Triacs_Shematic Member=Component 120v/N 2P_TERM_BLOCK_HEADER
+Added Room: Name=Triacs_Shematic

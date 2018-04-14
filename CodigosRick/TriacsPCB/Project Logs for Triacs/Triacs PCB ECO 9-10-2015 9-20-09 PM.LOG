@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=Power Old DesignItemId=Header 1x2 New DesignItemId=2P_TERM_BLOCK_HEADER
+Change Component Footprint: Designator=Power Old Footprint=1x2x2.54 Pin Header TH V New Footprint=2P_PCB_TERM_BLOCK_HDR
+Change Component Comment : Designator=Power Old Comment=Connector New Comment=2P_TERM_BLOCK_HEADER
+Added Room: Name=Triacs_Shematic

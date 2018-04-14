@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetFoco1_2 Pin=Power-2
+Change Component DesignItemId : Designator=Power Old DesignItemId=Header 2H New DesignItemId=Header 1x2
+Change Component Footprint: Designator=Power Old Footprint=HDR1X2H New Footprint=1x2x2.54 Pin Header TH V
+Change Component Comment : Designator=Power Old Comment=Header 2H New Comment=Connector
+Added Member To Class: ClassName=Triacs_Shematic Member=Component power Connector

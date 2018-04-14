@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=NetFoco1_2 Pin=Moc1-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=Moc2-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=Moc3-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=Moc4-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=Moc5-2
+Change Net Name : Old Net Name=NetFoco1_2 New Net Name=GND
+Added Room: Name=Triacs_Shematic

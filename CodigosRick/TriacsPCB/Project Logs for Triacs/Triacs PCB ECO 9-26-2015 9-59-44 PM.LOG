@@ -1,0 +1,21 @@
+Removed Member From Class: ClassName=Triacs_Shematic Member=Control
+Added Component: Designator=Header Der(1x10x2.54 Pin Header TH V)
+Added Component: Designator=Header Izq(1x10x2.54 Pin Header TH V)
+Added Pin To Net: NetName=NetHeader Der_2 Pin=Header Der-2
+Added Pin To Net: NetName=NetHeader Der_2 Pin=R3-1
+Added Net: Name=NetHeader Der_2
+Added Pin To Net: NetName=NetHeader Der_8 Pin=Header Der-8
+Added Pin To Net: NetName=NetHeader Der_8 Pin=R4-1
+Added Net: Name=NetHeader Der_8
+Added Pin To Net: NetName=NetHeader Der_9 Pin=Header Der-9
+Added Pin To Net: NetName=NetHeader Der_9 Pin=R5-1
+Added Net: Name=NetHeader Der_9
+Added Pin To Net: NetName=NetHeader Izq_9 Pin=Header Izq-9
+Added Pin To Net: NetName=NetHeader Izq_9 Pin=R1-1
+Added Net: Name=NetHeader Izq_9
+Added Pin To Net: NetName=NetHeader Izq_10 Pin=Header Izq-10
+Added Pin To Net: NetName=NetHeader Izq_10 Pin=R2-1
+Added Net: Name=NetHeader Izq_10
+Added Member To Class: ClassName=Triacs_Shematic Member=Component Header Der Connector
+Added Member To Class: ClassName=Triacs_Shematic Member=Component Header Izq Connector
+Added Room: Name=Triacs_Shematic

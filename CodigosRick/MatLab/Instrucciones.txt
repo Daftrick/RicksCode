@@ -1,0 +1,42 @@
+Hola. Gracias por tu tiempo
+
+Para correr los archivos deberas de tener MatLab en la version 2010
+en adelante o tendras problemas con las funciones dedicadas a audio
+
+Todas las funciones fueron diseñadas para recortar una palabra 
+contenida en un archivo de voz (*.wav), asi como para ser parte 
+de la nueva biblioteca de funciones diseñada por el Laboratorio de Tecnologias de Lenguaje,
+con el fin de enseñar de manera mas pronta y dinamica a los nuevos colaboradores
+el procesamiento de voz que se realiza en el laboratorio, en el menor tiempo
+posible y utilizando las herramientas que ya se han desarrollado en el mismo 
+
+Las funciones que se van a utilizar son:
+
+> cruzero.m
+> ffir.m
+> grabar.m  
+> iniciofinp.m
+> magprom.m
+> preenfasis.m
+> recortarpalabra.m
+> ventaneo.m
+
+Cada una de estas funciones esta comentada en su uso y resultado
+
+Es necesario que por favor prueben cada una de las funciones que se 
+encuentran en el archivo y hagan un pequeño comentario de cada una de ellas,
+no mas de cinco renglones, donde describan si funciono de manera correcta
+y si fue sencillo comprender los comentarios para el uso de las mismas, y, de ser necesario,
+argumentar la correccion de algun comentario o la adicion de mas instrucciones para una mejor 
+comprension del codigo. 
+
+Para empezar es necesaria la funcion "grabar.m" y generar con ella al menos tres 
+grabaciones de palabras diferentes, por ejemplo: "gato", "perro", "casa", que seran 
+utilizadas en las funciones restantes.
+
+Es recomendable utilizar primero la funcion "iniciofinp.m", ya que en ella se englosan
+todas las funciones del archivo, pudiendo entender de mejor manera como utilizar cada una ellas
+
+De nuevo muchas gracias por su tiempo
+Ricardo Flores Rivera 
+Laboratorio de Tecnologias del Lenguaje

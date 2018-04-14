@@ -1,0 +1,6 @@
+Added Component: Designator=Foco3(2P_PCB_TERM_BLOCK_HDR)
+Added Pin To Net: NetName=Net120V/N_1 Pin=Foco3-1
+Added Pin To Net: NetName=Net120V/N_2 Pin=Foco3-2
+Change Net Name : Old Net Name=Net120V/N_1 New Net Name=NetFoco3_1
+Change Net Name : Old Net Name=Net120V/N_2 New Net Name=NetFoco1_2
+Added Room: Name=Triacs_Shematic

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetHeader Der_10 Pin=R3-1
+Removed Pin From Net: NetName=NetHeader Der_8 Pin=R5-1
+Added Pin To Net: NetName=NetHeader Der_8 Pin=R3-1
+Added Pin To Net: NetName=NetHeader Der_10 Pin=R5-1
+Added Room: Name=Triacs_Shematic

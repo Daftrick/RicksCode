@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=CONN? NewDesignator=Power
+Change Net Name : Old Net Name=NetCONN?_2 New Net Name=NetFoco1_2
+Added Room: Name=Triacs_Shematic

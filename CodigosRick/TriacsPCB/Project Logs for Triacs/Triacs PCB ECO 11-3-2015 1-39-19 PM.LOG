@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GND Pin=Foco1-2
+Removed Pin From Net: NetName=GND Pin=Foco2-2
+Removed Pin From Net: NetName=GND Pin=Foco3-2
+Removed Pin From Net: NetName=GND Pin=Foco4-2
+Removed Pin From Net: NetName=GND Pin=Foco5-2
+Removed Pin From Net: NetName=GND Pin=Power-2
+Removed Pin From Net: NetName=NetHeader Der_8 Pin=R4-1
+Removed Pin From Net: NetName=NetHeader Der_9 Pin=R5-1
+Added Pin To Net: NetName=NetHeader Der_8 Pin=R3-1
+Added Pin To Net: NetName=NetHeader Der_9 Pin=R4-1
+Added Pin To Net: NetName=NetFoco1_2 Pin=Foco1-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=Foco2-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=Foco3-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=Foco4-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=Foco5-2
+Added Pin To Net: NetName=NetFoco1_2 Pin=Power-2
+Added Net: Name=NetFoco1_2
+Added Pin To Net: NetName=NetHeader Der_10 Pin=Header Der-10
+Added Pin To Net: NetName=NetHeader Der_10 Pin=R5-1
+Added Net: Name=NetHeader Der_10
+Added Room: Name=Triacs_Shematic
