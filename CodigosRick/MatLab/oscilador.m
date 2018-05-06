@@ -1,4 +1,4 @@
-function [x,C1,C2,L,Re,Qt,fo,n,gmq,Ieq,RL,Vcc]=oscilador(x,Vo,fo,THD,B,RL,Vee)
+function [x,C1,C2,L,Re,Qt,fo,n,gmq,Ieq,RL,Vcc,GT]=oscilador(x,Vo,fo,THD,B,RL,Vee)
 wo = fo*2*pi;
 if x == 2
     D = 0.294;
