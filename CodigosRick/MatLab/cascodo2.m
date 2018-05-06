@@ -1,9 +1,9 @@
-function [Rc1,Re,R1,R2,Rb1,Rb2,Rc2,Avsc,Avcc,Aicc,Zi,Zo,Ce1,Cb2,C1,C2,fo,fH1,fH2,Cpi1,Cpi2,Cu1,Cu2] = cascodo2(Vcc,Ict,Icq2,Vceq,Vcq,B,Vbe1,Vbe2,Ri,fo,fL,Cu1,Cu2)
+function [Rc1,Re,R1,R2,Rb1,Rb2,Rc2,Avsc,Avcc,Aicc,Zi,Zo,Ce1,Cb2,C1,C2,fo,fH,Cpi1,Cpi2,Cu1,Cu2] = cascodo2(Vcc,Ict,Icq2,Vceq,Vcq,B,Vbe1,Vbe2,Ri,fo,fL,Cu1,Cu2)
 Rc1 = (Vcc-Vcq)/Ict;
 Icq1 = Ict-Icq2;
 Re = (Vcq-Vceq)/Icq1;
 Vbb1 = Vbe1 + (Re*Icq1);
-Rb1= 0.1*(B+1)*Re;
+Rb1 = 0.1*(B+1)*Re;
 
 R1 = (Rb1*Vcc)/Vbb1;
 R2 = (Rb1*Vcc)/(Vcc-Vbb1);
@@ -11,17 +11,17 @@ Rb2 = ((Vcq-Vbe2)/Icq2)*B;
 Rc2 = (Vcq-Vceq)/Icq2;
 
 RL = Rc2;
-Vt=0.026;
+Vt = 0.026;
 gm1 = Icq1/Vt;
 gm2 = Icq2/Vt;
-rpi1=B/gm1;
-rpie=B/gm2;
+rpi1 = B/gm1;
+rpie = B/gm2;
 Ri1 = (Rb1*Ri)/(Rb1+Ri);
 Rq = (Rc2*RL)/(Rc2+RL);
 
-Avsc = (Rc2*gm2)*-((Rc1*rpie*gm1)/(Rc1+rpie))*((Rb1*rpi1)/((Rb1+Ri)*(Ri1+rpi1)));
-Avcc = (Rq*gm2)*-((Rc1*rpie*gm1)/(Rc1+rpie))*((Rb1*rpi1)/((Rb1+Ri)*(Ri1+rpi1)));
-Aicc = ((Rc2*gm2)/(Rc2+RL))*-((Rc1*rpie*gm1)/(rpie+Rc1))*((Rb1*rpi1)/(Rb1+rpi1));
+Avsc = (-Rc2*gm2*Rc2*rpie*gm1*Rb1*rpi1)/((Rc2+rpie)*(Rb1+Ri)*(Ri1+rpi1));
+Avcc = (-Rq*gm2*Rc2*rpie*gm1*Rb1*rpi1)/((Rc2+rpie)*(Rb1+Ri)*(Ri1+rpi1));
+Aicc = (-Rc2*gm2*Rc1*rpie*gm1*Rb1*rpi1)/((Rc2+RL)*(rpie+Rc1)*(Rb1+rpi1));
 Zi = (Rb1*rpi1)/(Rb1+rpi1);
 Zo = Rc2;
 
@@ -40,9 +40,8 @@ Cb2 = 1/(fL*Rcb2*2*pi);
 C1 = 10/(fL*Rcc1*2*pi);
 C2 = 20/(fL*Rcc2*2*pi);
 
-Cpi1 = gm1/300e+6 - Cu1;
-Cpi2 = gm2/300e+6 - Cu2;
+Cpi1 = (gm1/300e+6) - Cu1;
+Cpi2 = (gm2/300e+6) - Cu2;
 
-fH1 = 1/(2*pi*((Cpi1*Rcpi1)+(Cu1*Rcu1)));
-fH2 = 1/(2*pi*((Cpi2*Rcpi2)+(Cu2*Rcu2)));
+fH = 1/(2*pi*((Cpi1+Cpi2)*((Rcpi1*Rcpi2)/(Rcpi1+Rcpi2)))+((Cu1+Cu2)*((Rcu1+Rcu2)/(Rcu1+Rcu2))));
 end
